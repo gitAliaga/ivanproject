@@ -1,0 +1,27 @@
+body {
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  padding: 16px;
+  background: #b9bbbd;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  
+}
+
+header nav a{
+  text-decoration: none;
+}

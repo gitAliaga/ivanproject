@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header li {
+  margin-right: 10px;
+}
+
+.header a {
+  position: relative;
+  color: rgb(10, 32, 105);
+}
+
+.header a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(13, 157, 171); /* Cambia el color del subrayado al hacer hover */
+  transition: width 0.1s ease; /* Agrega una transición para suavizar la aparición del subrayado */
+}
+
+.header a:hover::after {
+  width: 100%;
+}
+
+.header a {
+  font-family: "Arial", sans-serif; /* Cambia la fuente de los enlaces */
+}
